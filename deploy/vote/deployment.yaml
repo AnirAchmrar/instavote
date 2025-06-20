@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: vote
+    tier: front
   name: vote
   namespace: instavote
 spec:
@@ -10,6 +11,7 @@ spec:
   selector:
     matchLabels:
       app: vote
+      tier: front
   template:
     metadata:
       labels:
