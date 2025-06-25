@@ -1,0 +1,13 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: vote
+    tier: front
+  name: vote
+spec:
+  template:
+    spec:
+      containers:
+        - image: schoolofdevops/vote:v5
+          name: vote
