@@ -6,3 +6,6 @@ patches:
   - path: deployment.yaml
   - path: service.yaml
 namespace: instavote
+images:
+  - name: schoolofdevops/vote
+    newTag: v5
