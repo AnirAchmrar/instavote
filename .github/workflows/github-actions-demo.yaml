@@ -1,0 +1,4 @@
+name: test-github-dispatch-provider
+on:
+  repository_dispatch:
+    types: [Kustomization/vote-staging.flux-system]
