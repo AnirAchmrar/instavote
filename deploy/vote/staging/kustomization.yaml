@@ -9,4 +9,4 @@ namespace: instavote-staging
 images:
   - name: schoolofdevops/vote
     newName: anirachmrar/vote
-    newTag: main-d62350c5-1751569612 # {"$imagepolicy": "flux-system:vote:tag"}
+    newTag: main-b3fd78ee-1751730645 # {"$imagepolicy": "flux-system:vote:tag"}
