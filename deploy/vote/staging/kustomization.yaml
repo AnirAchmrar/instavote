@@ -7,5 +7,6 @@ patches:
   - path: service.yaml
 namespace: instavote-staging
 images:
-  - name: anirachmrar/vote
+  - name: schoolofdevops/vote
+    newName: anirachmrar/vote
     newTag: main-d62350c5-1751569612 # {"$imagepolicy": "flux-system:vote:tag"}
